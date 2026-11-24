@@ -1,0 +1,41 @@
+schema: 1
+name: 'Warhammer 40,000: Dawn of War II - Chaos Rising'
+slug: warhammer-40-000-dawn-of-war-ii-chaos-rising
+aliases:
+- 'Warhammer 40,000: Dawn of War II - Chaos Rising'
+ids:
+  steam:
+  - '20570'
+paths:
+- pattern: <documents>/My Games/Dawn of War 2/Playback/*.rec
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/My Games/Dawn of War 2/Saved Games/*.sav
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/My Games/Dawn of War 2/Saved Games/*.sv
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/My Games/Dawn of War 2/Screenshots/relic*.jpg
+  os: windows
+  tags:
+  - save
+- pattern: <steamCompat>/20570/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War 2/Playback/*.rec
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/20570/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War 2/Saved Games/*.sav
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/20570/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War 2/Saved Games/*.sv
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/20570/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War 2/Screenshots/relic*.jpg
+  os: linux
+  tags:
+  - save

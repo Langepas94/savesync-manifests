@@ -1,0 +1,25 @@
+schema: 1
+name: Don't Starve Together
+slug: don-t-starve-together
+aliases:
+- Don't Starve Together
+ids:
+  steam:
+  - '322330'
+paths:
+- pattern: <documents>/DoNotStarveTogether/*/CloudSaves/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/DoNotStarveTogetherBetaBranch/*/CloudSaves/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <steamCompat>/322330/pfx/drive_c/users/steamuser/Documents/DoNotStarveTogether/*/CloudSaves/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/322330/pfx/drive_c/users/steamuser/Documents/DoNotStarveTogetherBetaBranch/*/CloudSaves/**/*
+  os: linux
+  tags:
+  - save

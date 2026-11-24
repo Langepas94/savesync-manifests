@@ -1,0 +1,20 @@
+# Глобальный варн/блок-лист SaveSync (см. SCHEMA.md §7).
+# Применяется ДО per-game полей portability; per-game запись может сузить,
+# но не отменить глобальный блок.
+#
+# match:
+#   publisher — подстрока имени издателя (case-insensitive) или
+#   engine    — подстрока движка
+# status: warn | blocked
+schema: 1
+entries:
+  - match: { publisher: "FromSoftware" }
+    status: warn
+    reason: >
+      Сейвы FromSoftware шифруются ключом от SteamID64: перенос возможен
+      только между устройствами одного Steam-аккаунта.
+  - match: { engine: "GameMaker" }
+    status: warn
+    reason: >
+      GameMaker secure_save привязывает сейв к машине: после переноса
+      игра может не прочитать файл.

@@ -1,0 +1,153 @@
+schema: 1
+name: Scrap Mechanic
+slug: scrap-mechanic
+aliases:
+- Scrap Mechanic
+ids:
+  steam:
+  - '387990'
+paths:
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Blueprints/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Challenges/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Progress/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/Backup/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/Custom/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/Custom/Backup/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/Survival/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Save/Survival/Backup/*.db*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Tiles/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/Worlds/**/*
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/character
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/keybinds.json
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/menublueprints.json
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/particle_editor_settings.json
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/tile_editor_settings.json
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/unlock
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/387990/pfx/drive_c/users/steamuser/AppData/Roaming/Axolot Games/Scrap Mechanic/User/User_*/watchedtutorials.json
+  os: linux
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Blueprints/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Challenges/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Progress/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/Backup/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/Custom/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/Custom/Backup/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/Survival/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Save/Survival/Backup/*.db*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Tiles/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/Worlds/**/*
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/character
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/keybinds.json
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/menublueprints.json
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/particle_editor_settings.json
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/tile_editor_settings.json
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/unlock
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/Axolot Games/Scrap Mechanic/User/User_*/watchedtutorials.json
+  os: windows
+  tags:
+  - save

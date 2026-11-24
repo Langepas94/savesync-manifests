@@ -1,0 +1,25 @@
+schema: 1
+name: MudRunner
+slug: mudrunner
+aliases:
+- MudRunner
+ids:
+  steam:
+  - '675010'
+paths:
+- pattern: <steamCompat>/675010/pfx/drive_c/users/steamuser/AppData/Roaming/SpinTires MudRunner/*.stu
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/675010/pfx/drive_c/users/steamuser/AppData/Roaming/SpinTires MudRunner/UserSaves/*.sts
+  os: linux
+  tags:
+  - save
+- pattern: <winAppData>/SpinTires MudRunner/*.stu
+  os: windows
+  tags:
+  - save
+- pattern: <winAppData>/SpinTires MudRunner/UserSaves/*.sts
+  os: windows
+  tags:
+  - save

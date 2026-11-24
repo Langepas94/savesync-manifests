@@ -1,0 +1,17 @@
+schema: 1
+name: Surviving Mars
+slug: surviving-mars
+aliases:
+- Surviving Mars
+ids:
+  steam:
+  - '464920'
+paths:
+- pattern: <steamCompat>/464920/pfx/drive_c/users/steamuser/AppData/Roaming/Surviving Mars/*/*
+  os: linux
+  tags:
+  - save
+- pattern: <winAppData>/Surviving Mars/*/*
+  os: windows
+  tags:
+  - save

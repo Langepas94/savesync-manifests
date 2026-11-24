@@ -1,0 +1,17 @@
+schema: 1
+name: 'Ancestors: The Humankind Odyssey '
+slug: ancestors-the-humankind-odyssey
+aliases:
+- 'Ancestors: The Humankind Odyssey '
+ids:
+  steam:
+  - '536270'
+paths:
+- pattern: <steamCompat>/536270/pfx/drive_c/users/steamuser/AppData/Local/Ancestors/Saved/SaveGames/*.sav
+  os: linux
+  tags:
+  - save
+- pattern: <winLocalAppData>/Ancestors/Saved/SaveGames/*.sav
+  os: windows
+  tags:
+  - save

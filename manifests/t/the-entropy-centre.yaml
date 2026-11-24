@@ -1,0 +1,17 @@
+schema: 1
+name: The Entropy Centre
+slug: the-entropy-centre
+aliases:
+- The Entropy Centre
+ids:
+  steam:
+  - '1730590'
+paths:
+- pattern: <steamCompat>/1730590/pfx/drive_c/users/steamuser/AppData/Local/Project_Kilo/Saved/SaveGames/*.sav
+  os: linux
+  tags:
+  - save
+- pattern: <winLocalAppData>/Project_Kilo/Saved/SaveGames/*.sav
+  os: windows
+  tags:
+  - save

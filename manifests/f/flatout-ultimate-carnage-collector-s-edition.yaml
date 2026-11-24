@@ -1,0 +1,41 @@
+schema: 1
+name: 'FlatOut: Ultimate Carnage Collector''s Edition'
+slug: flatout-ultimate-carnage-collector-s-edition
+aliases:
+- 'FlatOut: Ultimate Carnage Collector''s Edition'
+ids:
+  steam:
+  - '12360'
+paths:
+- pattern: <steamCompat>/12360/pfx/drive_c/users/steamuser/AppData/Local/FlatOut Ultimate Carnage/Savegame/*.dat
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/12360/pfx/drive_c/users/steamuser/AppData/Local/FlatOut Ultimate Carnage/Savegame/gfwl_id.txt
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/12360/pfx/drive_c/users/steamuser/AppData/Local/FlatOut Ultimate Carnage/Savegame/gfwl_username.txt
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/12360/pfx/drive_c/users/steamuser/AppData/Local/FlatOut Ultimate Carnage/Savegame/player_*.sav
+  os: linux
+  tags:
+  - save
+- pattern: <winLocalAppData>/FlatOut Ultimate Carnage/Savegame/*.dat
+  os: windows
+  tags:
+  - save
+- pattern: <winLocalAppData>/FlatOut Ultimate Carnage/Savegame/gfwl_id.txt
+  os: windows
+  tags:
+  - save
+- pattern: <winLocalAppData>/FlatOut Ultimate Carnage/Savegame/gfwl_username.txt
+  os: windows
+  tags:
+  - save
+- pattern: <winLocalAppData>/FlatOut Ultimate Carnage/Savegame/player_*.sav
+  os: windows
+  tags:
+  - save

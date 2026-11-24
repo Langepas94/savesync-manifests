@@ -1,0 +1,17 @@
+schema: 1
+name: No Man's Sky
+slug: no-man-s-sky
+aliases:
+- No Man's Sky
+ids:
+  steam:
+  - '275850'
+paths:
+- pattern: <steamCompat>/275850/pfx/drive_c/users/steamuser/AppData/Roaming/HelloGames/NMS/st_*/*.hg
+  os: linux
+  tags:
+  - save
+- pattern: <winAppData>/HelloGames/NMS/st_*/*.hg
+  os: windows
+  tags:
+  - save

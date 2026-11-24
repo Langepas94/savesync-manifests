@@ -1,0 +1,25 @@
+schema: 1
+name: Metro 2033
+slug: metro-2033
+aliases:
+- Metro 2033
+ids:
+  steam:
+  - '43110'
+paths:
+- pattern: <documents>//4A Games/Metro 2033/*.player
+  os: windows
+  tags:
+  - save
+- pattern: <documents>//4A Games/Metro 2033/auto_save
+  os: windows
+  tags:
+  - save
+- pattern: <steamCompat>/43110/pfx/drive_c/users/steamuser/Documents//4A Games/Metro 2033/*.player
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/43110/pfx/drive_c/users/steamuser/Documents//4A Games/Metro 2033/auto_save
+  os: linux
+  tags:
+  - save

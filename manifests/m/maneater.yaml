@@ -1,0 +1,17 @@
+schema: 1
+name: Maneater
+slug: maneater
+aliases:
+- Maneater
+ids:
+  steam:
+  - '629820'
+paths:
+- pattern: <steamCompat>/629820/pfx/drive_c/users/steamuser/AppData/Local/Maneater/Saved/SaveGames/*.sav
+  os: linux
+  tags:
+  - save
+- pattern: <winLocalAppData>/Maneater/Saved/SaveGames/*.sav
+  os: windows
+  tags:
+  - save

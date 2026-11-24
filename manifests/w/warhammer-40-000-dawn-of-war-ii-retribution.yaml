@@ -1,0 +1,33 @@
+schema: 1
+name: 'Warhammer 40,000: Dawn of War II - Retribution'
+slug: warhammer-40-000-dawn-of-war-ii-retribution
+aliases:
+- 'Warhammer 40,000: Dawn of War II - Retribution'
+ids:
+  steam:
+  - '56400'
+paths:
+- pattern: <documents>/My Games/Dawn of War 2/Saved Games/*.sv
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/My Games/Dawn of War II - Retribution/Playback/*.rec
+  os: windows
+  tags:
+  - save
+- pattern: <documents>/My Games/Dawn of War II - Retribution/Screenshots/relic*.jpg
+  os: windows
+  tags:
+  - save
+- pattern: <steamCompat>/56400/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War 2/Saved Games/*.sv
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/56400/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War II - Retribution/Playback/*.rec
+  os: linux
+  tags:
+  - save
+- pattern: <steamCompat>/56400/pfx/drive_c/users/steamuser/Documents/My Games/Dawn of War II - Retribution/Screenshots/relic*.jpg
+  os: linux
+  tags:
+  - save

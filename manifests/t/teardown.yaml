@@ -1,0 +1,17 @@
+schema: 1
+name: Teardown
+slug: teardown
+aliases:
+- Teardown
+ids:
+  steam:
+  - '1167630'
+paths:
+- pattern: <steamCompat>/1167630/pfx/drive_c/users/steamuser/AppData/Local/Teardown/savegame.xml
+  os: linux
+  tags:
+  - save
+- pattern: <winLocalAppData>/Teardown/savegame.xml
+  os: windows
+  tags:
+  - save
